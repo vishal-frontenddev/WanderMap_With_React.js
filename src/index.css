@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@media screen and (max-width: 768px) {
+
+header{
+    background-color: #fff;
+    height: 60px;
+    padding: 0 20px;
+}
+
+#testimonial-main-sec {
+    height: auto;
+}
+
+#testimonial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: red; */
+}
+
+#motion {
+    width: 350px;
+}
+
+}
