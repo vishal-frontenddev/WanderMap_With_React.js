@@ -33,6 +33,15 @@ header{
     padding: 20px;
 }
 
+/* activityPrefrence */
+#activityPrefrence  {
+    /* background-color: red; */
+    padding: 10px 20px;
+}
+
+/* map-sec */
+
+
 /* footer */
 footer {
     background-color: #f8f8f8;
