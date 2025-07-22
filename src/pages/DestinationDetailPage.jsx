@@ -1,6 +1,6 @@
 // src/pages/DestinationDetailPage.jsx
 import { useParams } from 'react-router-dom';
-import destinations from '../components/DestinationData';
+import destinations from '../Components/DestinationData';
 
 export default function DestinationDetailPage() {
   const { id } = useParams();
