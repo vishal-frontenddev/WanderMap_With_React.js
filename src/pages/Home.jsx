@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 
 // featurCard
-import FeatureCard from '../components/FeatureCard';
+import FeatureCard from '../Components/FeatureCard';
 import { MapPin, CalendarCheck, Compass, Star } from 'lucide-react';
 
 
 // testimonial-sec
-import TestimonialCard from '../components/TestimonialCard';
+import TestimonialCard from '../Components/TestimonialCard';
 
 
 import BlogPageSec from '../Components/BlogPageSec';
