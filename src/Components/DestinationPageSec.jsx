@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules"; // ✅ import Autoplay
 import { motion } from "framer-motion";
 import "swiper/css";
-import DestinationCard from "../components/DestinationCard";
+import DestinationCard from "..Components/DestinationCard";
 
 const DestinationPageSec = () => {
   const destinations = [
