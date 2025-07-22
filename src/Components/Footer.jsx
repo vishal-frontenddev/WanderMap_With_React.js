@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid gap-10 md:grid-cols-3">
 
         {/* Newsletter Signup */}
-        <div className='mr-40' >
+        <div id='newsletter' className='mr-40' >
           <h2 className="text-2xl font-semibold mb-3 text-gray-800">Stay Updated</h2>
           <p className="text-sm text-gray-600 mb-4">
             Subscribe to get travel stories, blogs, and exclusive tips right in your inbox.
@@ -49,7 +49,7 @@ const Footer = () => {
               <a href="#" className="hover:text-blue-600"><FaInstagram /></a>
             </div>
           </div>
-          <p className="font[20px] text-gray-500 mt-8 md:mt-0">
+          <p  className="font[18px] text-gray-500 mt-8 md:mt-0 text-center">
             © {new Date().getFullYear()} WanderMap. All rights reserved by Vishal Pandit.
           </p>
         </div>
