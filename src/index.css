@@ -43,16 +43,7 @@ header{
 
 /* tripPlanner */
 #tripPlanner {
-    width: 100%;
-    /* background-color: green; */
-    position: relative;
-   
-}
-#trip {
-    width: 350px;
-    /* background-color: red; */
-    position: absolute;
-    left: 0;
+    padding: 20px 0;
 }
 
 

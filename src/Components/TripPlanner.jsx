@@ -39,7 +39,7 @@ const TripPlanner = () => {
   const activityOptions = Object.keys(activityIdeas);
 
   return (
-    <div id="trip" className="p-6 max-w-xl mx-auto bg-white rounded-xl shadow-md">
+    <div className="p-6 max-w-xl mx-auto bg-white rounded-xl shadow-md">
       <h1 className="text-2xl font-bold mb-4 text-blue-700">🗺️ WanderMap Planner</h1>
 
       <div className="mb-4">
