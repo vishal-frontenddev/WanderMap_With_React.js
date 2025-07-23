@@ -191,7 +191,9 @@ const MapWithSelectedDestination = () => {
   };
 
   return (
-    <div className="space-y-6 h-[90vh] ml-5 mr-5">
+ <>
+ 
+       <div id='map' className="space-y-6 h-[65vh] ml-5 mr-5">
       <select onChange={handleChange} className="p-2 border rounded-md w-full max-w-xs">
         <option value="">Select Destination</option>
         {destinations.map(dest => (
@@ -221,16 +223,17 @@ const MapWithSelectedDestination = () => {
             </>
           )}
         </MapContainer>
-      </div>
-
-      <div>
-        
-        <Footer />
-
-      </div>    
+      </div>   
 
     </div>
+
+      <div>      
+        <Footer />
+      </div> 
     
+ 
+ </>
+
   );
 };
 

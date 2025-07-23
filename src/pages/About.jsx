@@ -1,10 +1,11 @@
-import React from 'react';
-import Footer from '../Components/Footer';
-
+import React from 'react'
+import Footer from '../Components/Footer'
 
 const About = () => {
   return (
-    <div id='about' className=" h-[80vh] bg-white py-12  text-gray-800">
+    <>
+    
+    <div id='about' className=" h-[70vh] bg-white py-20  text-gray-800">
       <h1 className="text-4xl font-bold text-blue-600 mb-6 text-center">About WanderMap</h1>
 
       <div className="max-w-4xl mx-auto space-y-6 text-lg leading-relaxed">
@@ -28,15 +29,16 @@ const About = () => {
       <div className="mt-10 text-center">
         <p className="text-gray-600">🌍 Made with ❤️ by travel lovers, for travel lovers.</p>
       </div>
-
-
-      <div id='aboutFooter' className='mt-30'>
-        <Footer />
-      </div>
       
     </div>
-    
-  );
-};
 
-export default About;
+    <div>
+      <Footer />
+    </div>
+    
+    
+    </>
+  )
+}
+
+export default About

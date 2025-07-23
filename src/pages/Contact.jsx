@@ -28,7 +28,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact-page" className=" h-[100vh] w-full  py-20 px-6">
+
+    <>
+    
+        <section id="contact-page" className=" h-[80vh] w-full  py-20 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -133,13 +136,13 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="mt-16 bg-gray-100">
-        <Footer />
-      </div>
-
     </section>
 
+        <div className=" bg-gray-100">
+        <Footer />
+      </div>
     
+    </>
 
   );
 };
