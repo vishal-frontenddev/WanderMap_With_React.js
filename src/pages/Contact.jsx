@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact-page" className="bg-red-400 h-[100vh]  py-20 px-6">
+    <section id="contact-page" className=" h-[100vh] w-full  py-20 px-6">
       <div className="max-w-6xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
